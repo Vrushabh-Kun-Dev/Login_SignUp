@@ -1,0 +1,17 @@
+body {
+  margin: 0 ;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100vh;
+  background: linear-gradient(#2A00B7, #42006C);
+  
+}
+body::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+  background: transparent; /* Optional: just to make scrollbar invisible */
+}
+body{
+  overflow: hidden;
+}
